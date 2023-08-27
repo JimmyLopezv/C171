@@ -13,14 +13,19 @@ public class TrabajoBloque4 {
 
         Scanner scanner = new Scanner(System.in);
 
-        String nombre = "";
+        while (true) {
+            Estudiante estudiante = new Estudiante();
+
+
+            String nombre = "";
         String apellido = "";
         String cedula = "";
         String telefono = "";
         Double notasEscolares = Double.valueOf("");
         String carreraCursar = "";
 
-
+        System.out.println("Ingrese nombre del estudiante");
+        String nombre = scanner.nextLine();
 
 
         try {
