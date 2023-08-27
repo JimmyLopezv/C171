@@ -3,22 +3,13 @@ package B3;
 public class TrabajoBloque3 {
 
     public static void main(String[] args) {
-        int[] numeros = new int[5];
-        numeros[0]=3;
-        numeros[1]=0;
-        numeros[2]=-1;
-        numeros[3]=2;
-        numeros[4]=4;
 
-        for (int i = 0; i < numeros.length; i++) {
-            Double numeroRadom=Math.random()*10;
-            numeros[i]=numeroRadom.intValue();
+        int[] numeros = {3, 0,-1,2,4};
+
+        System.out.println("Arreglo orden invertido: ");
+        for (int i = numeros.length - 1; i >= 0; i--) {
+            System.out.print(numeros[i] + "  ");
         }
-
-        for (int num: numeros) {
-            System.out.println(num);
-        }
-
     }
 
 }
