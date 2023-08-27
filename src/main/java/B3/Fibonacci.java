@@ -2,7 +2,7 @@ package B3;
 
 public class Fibonacci {
     public static void main(String[] args) {
-        int serie = 9 , num1= 0 , num2 = 1 , suma= 1;
+        int serie = 20 , num1= 0 , num2 = 1 , suma= 1;
 
         System.out.println(num1);
 
